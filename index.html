@@ -729,6 +729,12 @@
       width: 6.7rem
     }
 
+    @media only screen and (max-width: 1023px) {
+      .logo[data-v-6c4f096e] {
+        top: 2rem !important;
+      }
+    }
+
     @media only screen and (min-width: 1024px) {
       .logo[data-v-6c4f096e] {
         order: 0
@@ -1806,7 +1812,8 @@
         max-width: 33rem;
         position: absolute;
         transform: translate3d(-50%, 0, 0);
-        width: calc(100% - var(--grid-outerGutter) * 2)
+        width: calc(100% - var(--grid-outerGutter) * 2);
+        display: none;
       }
     }
 
