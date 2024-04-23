@@ -1702,8 +1702,10 @@
       z-index: 10
     }
 
+   
+     
     .name[data-v-b379d1b6] {
-      font-size: clamp(7.5rem, 10.4166666667vw, 15rem);
+      font-size: clamp(3.5rem, 4.4166666667vw, 10rem);
       color: #ff7714;
       font-weight: 500;
       left: 50%;
@@ -1717,6 +1719,11 @@
       visibility: hidden;
       width: calc(100% - var(--grid-outerGutter) * 2);
       will-change: transform
+    }
+    @media only screen and (min-width: 1024px) {
+      .name[data-v-b379d1b6] {
+        font-size: clamp(7.5rem, 10.4166666667vw, 15rem)
+      }
     }
 
     @media only screen and (min-width: 834px) {
