@@ -1072,7 +1072,7 @@
                         element: this.element,
                         sData: t,
                         sDataMobile: i,
-                        keyframes: [58, 104, 142, 159, 190],
+                        keyframes: [58, 104, 190],
                         fps: 45,
                         addedScreenfuls: 1,
                         beginsSnap: !0
