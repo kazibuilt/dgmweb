@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /components/
-Disallow: /ie/
-
-Sitemap: /sitemap.xml
