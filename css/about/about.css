@@ -1614,7 +1614,7 @@ body[data-modal-active=true] {
   right: 30px;
   top: 30px;
   background-color: #191919;
-  background-image: url("../../assets/svg/icon-close-dark-s.svg.html");
+  background-image: url("../../assets/svg/icon-close-dark-s.svg");
   background-position: center;
   background-repeat: no-repeat;
   animation-duration: 200ms;
@@ -1628,7 +1628,7 @@ body[data-modal-active=true] {
     top: 50px;
     right: 60px;
     background-color: #ff7714;
-    background-image: url("../../assets/svg/icon-close-light.svg.html");
+    background-image: url("../../assets/svg/icon-close-light.svg");
     background-position: center;
   }
   .hf-modal .close:hover {
@@ -1638,7 +1638,7 @@ body[data-modal-active=true] {
 @media (min-width: 960px) {
   .hf-modal .close {
     background-color: #ff7714;
-    background-image: url("../../assets/svg/icon-close.svg.html");
+    background-image: url("../../assets/svg/icon-close.svg");
     background-position: center;
   }
 }
@@ -1989,7 +1989,7 @@ body[data-modal-open=true] {
   right: 30px;
   top: 30px;
   background-color: #191919;
-  background-image: url("../../assets/svg/icon-close-dark-s.svg.html");
+  background-image: url("../../assets/svg/icon-close-dark-s.svg");
   background-position: center;
   background-repeat: no-repeat;
   transition: transform 200ms ease-in-out;
@@ -2000,7 +2000,7 @@ body[data-modal-open=true] {
     top: 50px;
     right: 60px;
     background-color: #ff7714;
-    background-image: url("../../assets/svg/icon-close-light.svg.html");
+    background-image: url("../../assets/svg/icon-close-light.svg");
     background-position: center;
   }
   .hypermodal .close:hover {
@@ -2010,7 +2010,7 @@ body[data-modal-open=true] {
 @media (min-width: 960px) {
   .hypermodal .close {
     background-color: #ff7714;
-    background-image: url("../../assets/svg/icon-close.svg.html");
+    background-image: url("../../assets/svg/icon-close.svg");
     background-position: center;
   }
 }
