@@ -611,7 +611,7 @@
                         };
                     this.fresh = !1;
                     var k = e => {
-                        this.fresh = !!(this.frames[e] && this.frames[e].img && this.frames[e].img.complete), this.fresh && (this.lastImg = this.frames[e].img || this.lastImg), this.lastImg ? this.rendererCTX.drawImage(this.lastImg, this.renderParams.x, this.renderParams.y, this.renderParams.width, this.renderParams.height) : (this.rendererCTX.fillStyle = "#191919", this.rendererCTX.fillRect(this.renderParams.x, this.renderParams.y, this.renderParams.width, this.renderParams.height))
+                        this.fresh = !!(this.frames[e] && this.frames[e].img && this.frames[e].img.complete), this.fresh && (this.lastImg = this.frames[e].img || this.lastImg), this.lastImg ? this.rendererCTX.drawImage(this.lastImg, this.renderParams.x, this.renderParams.y, this.renderParams.width, this.renderParams.height) : (this.rendererCTX.fillStyle = "#151517", this.rendererCTX.fillRect(this.renderParams.x, this.renderParams.y, this.renderParams.width, this.renderParams.height))
                     };
                     this.renderFrame = k, (() => {
                         E.push(this), this.events = new s, this.scrollElement = c(), this.element = this.config.element, this.keyframes = this.config.keyframes, this.length = this.keyframes.length, this.scrollContent = this.element.querySelector(".snap-sequence-scroll-content"), this.renderer = this.element.querySelector(".snap-sequence-renderer"), this.rendererCanvas = this.renderer.querySelector(".snap-sequence-canvas"), this.rendererCTX = this.rendererCanvas.getContext("2d", {
@@ -1072,7 +1072,7 @@
                         element: this.element,
                         sData: t,
                         sDataMobile: i,
-                        keyframes: [58, 104, 190],
+                        keyframes: [58, 104, 142, 159, 190],
                         fps: 45,
                         addedScreenfuls: 1,
                         beginsSnap: !0
