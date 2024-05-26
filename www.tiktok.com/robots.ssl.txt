@@ -1,0 +1,31 @@
+User-agent: Baiduspider
+User-agent: 360Spider
+User-agent: Sogouspider
+User-agent: Yisouspider
+User-agent: PetalBot
+User-agent: Bytespider
+Disallow: /
+
+User-agent: *
+Allow: /foryou
+Allow: /discover
+Allow: /about
+Allow: /legal
+Allow: /safety
+Allow: /forgood
+Allow: /community-guidelines
+Allow: /tag
+Allow: /amp
+Allow: /transparency
+Allow: /share
+Allow: /music
+Disallow: /inapp
+Disallow: /auth
+Disallow: /embed/@
+Disallow: /embed/v2
+Disallow: /embed/curated
+Disallow: /link
+Disallow: */directory/
+
+User-agent: Bingbot
+Disallow: /discover

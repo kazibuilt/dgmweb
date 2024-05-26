@@ -1,0 +1,20 @@
+.button_button__HOmVR {
+    box-shadow: 0 0 0 0 var(--hover-shadow-color);
+    transition: box-shadow .3s ease-out, opacity .3s ease-out
+}
+
+.button_button__HOmVR:hover {
+    box-shadow: 0 0 24px 0 var(--hover-shadow-color)
+}
+
+.button_primary__q4mcz {
+    --hover-shadow-color: #f99d0490
+}
+
+.button_secondary__UTcwa {
+    --hover-shadow-color: #ffffff80
+}
+
+.button_tertiary__LlZE_ {
+    --hover-shadow-color: #18190f80
+}
