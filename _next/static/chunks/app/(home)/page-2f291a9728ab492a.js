@@ -915,7 +915,7 @@
                 c = a(45876),
                 u = a(14408);
             let h = {
-                    src: "/_next/hero-desktop.jpg",
+                    src: "/_next/desktop-hero.jpg",
                     height: 1456,
                     width: 712,
                     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAICAMAAADp7a43AAAAJ1BMVEU5MAUzLA1DOAkdGgNAOx5hVjrPu6MAAwC2mnaGemBQTDqqmX7s1ryqs2vHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAJ0lEQVR4nAXBhwEAMAzCMANJ9//3VkLRwplNzi5yX6MxCqoFyNjwAQtpAHrhrl2ZAAAAAElFTkSuQmCC",
@@ -1073,14 +1073,14 @@
                                         children: [(0, l.jsxs)("div", {
                                             className: "flex flex-col w-full hero-inner-loose",
                                             children: [(0, l.jsxs)("h1", {
-                                                className: "title-md leading-none max-w-[10em]",
-                                                children: ["The computer,", " ", (0, l.jsx)("span", {
+                                                className: "title-md leading-none max-w-[10em] tblack",
+                                                children: ["Hello!", " ", (0, l.jsx)("span", {
                                                     className: "whitespace-nowrap",
-                                                    children: "de-invented"
+                                                    children: "We are DGM."
                                                 })]
                                             }), (0, l.jsx)("p", {
-                                                className: "paragraph-md text-scale-[20px]/[32px] max-w-[17em] mt-[1.25em]",
-                                                children: "Meet DC-1. A new kind of computer, designed for deep focus and wellbeing."
+                                                className: "paragraph-md text-scale-[20px]/[32px] max-w-[17em] mt-[1.25em] tblack",
+                                                children: "And you'll find us behind the best run kitchens."
                                             })]
                                         }), (0, l.jsxs)("div", {
                                             className: "flex flex-col justify-between lg:items-end lg:flex-row",
@@ -1275,8 +1275,8 @@
             let v = (0, r.Ue)(() => ({
                     playedSound: !1
                 })),
-                y = (0, m.PF)("We refuse to accept a future where our devices are exhausting, addictive, and distracting"),
-                j = (0, m.PF)("Introducing Daylight — a healthier, more human-friendly computer"),
+                y = (0, m.PF)("In the food industry, customers consistently expect the highest quality."),
+                j = (0, m.PF)("DGM is here to take care of all your equipment and cleaning needs with ease and efficiency!"),
                 C = () => {
                     let {
                         player: e
@@ -1332,7 +1332,7 @@
                         }));
                         let c = s.p8.timeline({
                             paused: !0
-                        }).to('h2 [data-word="distracting"]', {
+                        }).to('h2 [data-word="quality"]', {
                             color: "#FF6F6F",
                             duration: .2
                         }).fromTo("#notifications", {
@@ -2306,7 +2306,7 @@
                 Z: () => l
             });
             let l = {
-                src: "/_next/hero-desktop.jpg",
+                src: "/_next/desktop-hero.jpg",
                 height: 940,
                 width: 1920,
                 blurDataURL: "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoIAAQAAkA4JQBOgB6Q9fKAAP74lWB2TZi4mBy7qK7Pf9B9cPxUylTNEFwaBZAt7LoOQAAA",
