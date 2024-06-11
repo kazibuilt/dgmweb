@@ -390,28 +390,28 @@
                     blurHeight: 8
                 },
                 G = [{
-                    src: "/_next/app-icon-7.png",
+                    src: "/_next/partner07.png",
                     height: 156,
                     width: 157,
                     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJ1BMVEVMaXEWGA4WGA8WGA4WGA8XGA4XGQ8WGg8XFw0VGQ0WGA8WGA4XGQ9msoYmAAAADXRSTlMAkWGidon6IUs/Unzmx0a4QwAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAADNJREFUeJxFykcOACEQxED3JNL+/70ItBK+1MXwmlK/upkGkOYeAchUtYDuUV8708i8/m0VeACioGHpswAAAABJRU5ErkJggg==",
                     blurWidth: 8,
                     blurHeight: 8
                 }, {
-                    src: "/_next/app-icon-4.png",
+                    src: "/_next/partner04.png",
                     height: 156,
                     width: 157,
                     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAALVBMVEUWGA4WGA4AAABMaXEVGxAVGg0XGA4WGA4WGQ8XGA8XGg4YGA8WGQ8WGQ8UGAyrxmPPAAAAD3RSTlPxhwEALzmsnd65V1TLyj6/00aSAAAACXBIWXMAABYlAAAWJQFJUiTwAAAANklEQVR4nC2LSQ6AMBCAmKGrrf7/uabGGwmAqZqS1t6LiQ8DitjuiBHi3BEcWPCp9JqtnvjfXyH9AO09ttLeAAAAAElFTkSuQmCC",
                     blurWidth: 8,
                     blurHeight: 8
                 }, {
-                    src: "/_next/app-icon-5.png",
+                    src: "/_next/partner05.png",
                     height: 157,
                     width: 157,
                     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAG1BMVEUQEAAWGA4VGA8SEhIWGQ4XGA4VGhEXFw4VGA0yaH7zAAAACXRSTlMBmkkNxokcX1brQQ8rAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAK0lEQVR4nG3LqQEAIBDEwOze23/FCAyC6Al8cslA2MocCNUoFcBIe1H3+xwLDQBYfgzI3AAAAABJRU5ErkJggg==",
                     blurWidth: 8,
                     blurHeight: 8
                 }, {
-                    src: "/_next/app-icon-6.png",
+                    src: "/_next/partner06.png",
                     height: 156,
                     width: 157,
                     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJFBMVEVMaXEXGA8WGQ4WGA4XGA8WGQ4ZGQ8WGQ8VGA0VGQwWFhEWGQ+UM0kXAAAADHRSTlMAUoOSqJgxw2w7LdV9UxjmAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAMklEQVR4nD3KQQ4AIAgDQWhBUP//X1NN3NMc1uy33H0IscGaQmTTBbIgIBopGBK89+sAFPAAjZzCFpcAAAAASUVORK5CYII=",
@@ -425,28 +425,28 @@
                     blurWidth: 8,
                     blurHeight: 8
                 }, {
-                    src: "/_next/app-icon-3.png",
+                    src: "/_next/partner03.png",
                     height: 156,
                     width: 157,
                     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAGFBMVEVMaXEWGA4WFgwXGA0VGA4WGA4WGA4XGQ/MZHq4AAAAB3RSTlMAvBilintxFSJz4wAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAAClJREFUeJxFxskJAAAIA0ETr/47FiLoso8x+0hSCCCEdE8B3VhULaivAQn8AEU/s8h6AAAAAElFTkSuQmCC",
                     blurWidth: 8,
                     blurHeight: 8
                 }, {
-                    src: "/_next/app-icon-2.png",
+                    src: "/_next/partner02.png",
                     height: 156,
                     width: 157,
                     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJ1BMVEVMaXEXGQ8VFg0VFQoXGA8WGQ4XGA4WFgwXGQ8VFg4WGA8XGA4WGA9WnCx4AAAADXRSTlMA8zEX/oGhC5No1c/jLmTyAAAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAADNJREFUeJw9ikkKACAMxDJtbV3+/19RxFwCIfApd/cCWkjRgD7XXHnLGNEBkyQ7t2VePzYZSACmo9h19wAAAABJRU5ErkJggg==",
                     blurWidth: 8,
                     blurHeight: 8
                 }, {
-                    src: "/_next/app-icon-1.png",
+                    src: "/_next/partner01.png",
                     height: 156,
                     width: 157,
                     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAIVBMVEUODggXGA4XGQ4WGQ4XFw8WGQ4ZGQ8XGA8YGAwWGBAXGQ5bUlIIAAAAC3RSTlMBUXC0MjxkkCl+7498GrsAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAuSURBVHicVYtLCgAgEIWcf3X/A8dbRa4EET6qAFu5uwEvjzGJRxyJjRFKIvOdFxCkAHAU7GAMAAAAAElFTkSuQmCC",
                     blurWidth: 8,
                     blurHeight: 8
                 }, {
-                    src: "/_next/app-icon-8.png",
+                    src: "/_next/partner08.png",
                     height: 156,
                     width: 157,
                     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAJ1BMVEVMaXEWGA4XGQ0WGA4XGA4WGA0WGA4XGA4WGQ8WGQ8XGQ8WGA4WGQ/MEknGAAAADXRSTlMAgCBMbTBZPWKh++HUwLLg1AAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAADRJREFUeJw9ykkOwCAQxEA3mQ3C/9+LBkXxqQ6GP6/KGEBqMh4gdtiF1ps0bE3zhkuynr8OGgcAra6a/ucAAAAASUVORK5CYII=",
@@ -1080,7 +1080,7 @@
                                                 })]
                                             }), (0, l.jsx)("p", {
                                                 className: "paragraph-md text-drop-shadow text-scale-[20px]/[32px] max-w-[17em] mt-[1.25em] op0",
-                                                children: "Meet DC-1. A new kind of computer, designed for deep focus and wellbeing."
+                                                children: "."
                                             })]
                                         }), (0, l.jsxs)("div", {
                                             className: "flex flex-col justify-between lg:items-end lg:flex-row",
