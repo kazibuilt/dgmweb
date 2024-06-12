@@ -1074,9 +1074,9 @@
                                             className: "flex flex-col w-full hero-inner-loose",
                                             children: [(0, l.jsxs)("h1", {
                                                 className: "title-md text-drop-shadow leading-none max-w-[10em] op0",
-                                                children: ["The computer,", " ", (0, l.jsx)("span", {
+                                                children: [".,", " ", (0, l.jsx)("span", {
                                                     className: "whitespace-nowrap",
-                                                    children: "de-invented"
+                                                    children: "."
                                                 })]
                                             }), (0, l.jsx)("p", {
                                                 className: "paragraph-md text-drop-shadow text-scale-[20px]/[32px] max-w-[17em] mt-[1.25em] op0",
@@ -1198,8 +1198,8 @@
                 c = a(8929),
                 h = a.n(c),
                 m = a(31547);
-            let g = (0, r.PF)("We refuse to accept a future where our devices are exhausting, addictive, and distracting"),
-                u = (0, r.PF)("Introducing Daylight — a healthier, more human-friendly computer"),
+            let g = (0, r.PF)("You've got enough on your plate making sure your guests have the best experience with theirs"),
+                u = (0, r.PF)("We make sure your kitchen equipment always helps you reach your goals and stays a valuable asset"),
                 p = () => {
                     let e = (0, i.useRef)(null),
                         t = (0, d.q)(e => e.reducedMotion);
@@ -1254,7 +1254,7 @@
                         }));
                         let g = s.p8.timeline({
                             paused: !0
-                        }).to('h2 [data-word="distracting"]', {
+                        }).to('h2 [data-word="theirs"]', {
                             color: "#FF6F6F",
                             duration: .2
                         }).fromTo("#notifications", {
