@@ -21,7 +21,7 @@
                         onProgress: e => {
                             e.playedSeconds > .3 && t(!0)
                         },
-                        url: "https://stream.mux.com/NLoatvxCpuPG1cWEpX8Vz2ywOl8nWic99K11jsKlu4I.m3u8",
+                        url: "https://stream.mux.com/",
                         playing: null == a ? void 0 : a.isIntersecting,
                         playsinline: !0,
                         controls: !1,
@@ -31,12 +31,13 @@
                         height: "100%",
                         style: {
                             "--media-object-size": "cover",
+                            opacity: "0",
                             position: "relative"
                         }
                     }), (0, i.jsx)(l.default, {
                         className: (0, u.L)("absolute inset-0 object-cover block opacity-100", e && "opacity-0 transition-opacity duration-200"),
                         alt: "",
-                        src: "https://image.mux.com/NLoatvxCpuPG1cWEpX8Vz2ywOl8nWic99K11jsKlu4I/thumbnail.png?width=1920&height=1080&time=1",
+                        src: "/_next/team-desktop.webp",
                         fill: !0,
                         sizes: "100vw",
                         priority: !0

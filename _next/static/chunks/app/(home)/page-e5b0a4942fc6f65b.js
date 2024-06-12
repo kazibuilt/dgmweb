@@ -476,7 +476,7 @@
                     width: 100,
                     Component: () => (0, l.jsx)("section", {
                         id: "h-scroll-wake-up-section",
-                        className: "text-white shadow-container w-[100vw]",
+                        className: "shadow-container w-[100vw]",
                         children: (0, l.jsx)("div", {
                             className: "hero-container",
                             children: (0, l.jsxs)("div", {
@@ -497,7 +497,7 @@
                                             children: "paper-like"
                                         }), " display"]
                                     }), (0, l.jsxs)("div", {
-                                        className: "grid max-w-full grid-cols-1 lg:grid-cols-2 gap-vw-6 lg:grid-flow-col",
+                                        className: "grid max-w-full grid-cols-1 lg:grid-cols-2 gap-vw-6 lg:grid-flow-col op0",
                                         children: [(0, l.jsx)(v.y, {
                                             iconComponent: (0, l.jsx)(j.R, {
                                                 className: "w-full h-auto",
@@ -555,7 +555,7 @@
                                 children: [(0, l.jsx)(U, {
                                     src: C,
                                     fig: 1,
-                                    title: "Reading",
+                                    title: "Planning + Sales",
                                     caption: "Your new favorite reading app for books and documents"
                                 }), (0, l.jsx)(U, {
                                     src: N.Z,
@@ -2013,8 +2013,8 @@
                 Z: () => l
             });
             let l = {
-                src: "/_next/Comp_00000.webp",
-                height: 940,
+                src: "/_next/hero-desktop-new3.png",
+                height: 1080,
                 width: 1920,
                 blurDataURL: "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoIAAQAAkA4JQBOgB6Q9fKAAP74lWB2TZi4mBy7qK7Pf9B9cPxUylTNEFwaBZAt7LoOQAAA",
                 blurWidth: 8,
