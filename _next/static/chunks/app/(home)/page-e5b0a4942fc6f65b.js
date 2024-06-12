@@ -535,13 +535,13 @@
                             className: "grid items-end grid-cols-1 max-2xl:lg:text-scale-[18px]/[24px] max-lg:container lg:grid-cols-3 lg:gap-vw-8 xl:gap-vw-4 gap-vw-4",
                             children: [(0, l.jsxs)("h2", {
                                 className: "title-md text-scale-[40px]/[80px] col-span-2 w-full xl:max-w-[13.3em]",
-                                children: ["A distraction-free space for ", (0, l.jsx)("br", {
+                                children: ["We offer a full", (0, l.jsx)("br", {
                                     className: "max-lg:hidden"
-                                }), " learning & creativity"]
+                                }), " range of services"]
                             }), (0, l.jsxs)("div", {
                                 className: "lg:max-w-[20em] paragraph-sm text-night/50",
                                 children: [(0, l.jsx)("p", {
-                                    className: "paragraph hidden gap-x-[1.1em] lg:flex text-scale-lg/2xl font-medium",
+                                    className: "paragraph hidden gap-x-[1.1em] lg:flex text-scale-lg/2xl font-medium op0",
                                     children: "Live Paper display"
                                 }), (0, l.jsx)("p", {
                                     className: "mt-[0.8em] lg:mt-[1em] text-pretty max-lg:mb-[2em]",
@@ -556,17 +556,17 @@
                                     src: C,
                                     fig: 1,
                                     title: "Planning + Sales",
-                                    caption: "Your new favorite reading app for books and documents"
+                                    caption: "Whether you know exactly what you want and need, or you only that you need equipment that will allow you to cater to your customers, we are your ideal partner"
                                 }), (0, l.jsx)(U, {
                                     src: N.Z,
                                     fig: 2,
-                                    title: "Note-taking",
-                                    caption: "Write, draw and annotate on a fast, paper-like surface"
+                                    title: "Maintenance",
+                                    caption: "To ensure long and reliable lifespans, industrial kitchen equipment requires routine maintenance by experts such as our staff."
                                 }), (0, l.jsx)(U, {
                                     src: R,
                                     fig: 3,
-                                    title: "Writing",
-                                    caption: "A sacred space for focused writing without distraction"
+                                    title: "Troubleshooter",
+                                    caption: "When your pizza oven breaks down at 8pm on a Friday evening you need expert, knowledgeable technicians familar with your setup. In other words, you need DGM."
                                 })]
                             })
                         })]
@@ -646,7 +646,7 @@
                                 className: "opacity-50"
                             }), (0, l.jsx)("p", {
                                 className: "text-center font-serif font-light max-w-[20em]",
-                                children: "The vision for Daylight is to build a whole ecosystem of healthier, more humane computers that respect our health, attention, and freedom."
+                                children: "We pride ourselves on offering and end-to-end (from sales to service to repair) solution for the food and beverage industry."
                             })]
                         })
                     })
