@@ -25,6 +25,29 @@
     font-display: swap;
     font-weight: 800
 }
+@font-face {
+    font-display: swap;
+    font-family: TT Interphases Pro;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../media/TT_Interphases_Pro_Medium.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: TT Interphases Pro;
+    font-style: normal;
+    font-weight: 600;
+    src: url(../media/TT_Interphases_Pro_DemiBold.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: TT Interphases Pro Mono;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../media/TT_Interphases_Pro_Mono_Regular.woff2) format("woff2")
+}
 
 @font-face {
     font-family: __abcRoomFont_Fallback_38b1ae;
@@ -68,7 +91,7 @@
     --abcRoomExtendedFont: "__abcRoomExtendedFont_412c3c", "__abcRoomExtendedFont_Fallback_412c3c"
 }
 
-@font-face {
+/* @font-face {
     font-family: __abcArizonaFlareFont_498f8e;
     src: url(../media/3fdf84c9117473e8-s.p.woff) format("woff");
     font-display: swap;
@@ -107,14 +130,14 @@
     descent-override: 23.72%;
     line-gap-override: 0.00%;
     size-adjust: 98.17%
-}
+} */
 
 .__className_498f8e {
-    font-family: __abcArizonaFlareFont_498f8e, __abcArizonaFlareFont_Fallback_498f8e
+    font-family: "TT Interphases Pro",
 }
 
 .__variable_498f8e {
-    --abcArizonaFlareFont: "__abcArizonaFlareFont_498f8e", "__abcArizonaFlareFont_Fallback_498f8e"
+    --abcArizonaFlareFont: "TT Interphases Pro"
 }
 
 .header_header-wrapper__3S3ls {

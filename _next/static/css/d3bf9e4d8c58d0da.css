@@ -509,7 +509,7 @@ video {
 
 .\!title,
 .title {
-    font-family: var(--abcArizonaFlareFont), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "TT Interphases Pro", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     font-weight: 300;
     line-height: .97;
     letter-spacing: -.07em
@@ -525,7 +525,7 @@ video {
 
 .title-lg,
 .title-md {
-    font-family: var(--abcArizonaFlareFont), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "TT Interphases Pro", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     font-weight: 300;
     line-height: .97;
     letter-spacing: -.07em;
@@ -559,7 +559,7 @@ video {
 }
 
 .title-sm {
-    font-family: var(--abcArizonaFlareFont), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "TT Interphases Pro", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     font-weight: 300;
     line-height: .97;
     letter-spacing: -.07em;
@@ -2649,7 +2649,7 @@ video {
 }
 
 .font-serif {
-    font-family: var(--abcArizonaFlareFont), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif
+    font-family: "TT Interphases Pro", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif
 }
 
 .\!text-lg {
@@ -3608,7 +3608,7 @@ html.lenis body {
     }
 
     .lg\:title-md {
-        font-family: var(--abcArizonaFlareFont), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+        font-family: "TT Interphases Pro", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
         font-weight: 300;
         line-height: .97;
         letter-spacing: -.07em;
@@ -3639,7 +3639,7 @@ html.lenis body {
     }
 
     .lg\:title-sm {
-        font-family: var(--abcArizonaFlareFont), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+        font-family: "TT Interphases Pro", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
         font-weight: 300;
         line-height: .97;
         letter-spacing: -.07em;
