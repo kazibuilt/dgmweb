@@ -1109,7 +1109,7 @@
                                 progress: r,
                                 children: (0, l.jsx)("span", {
                                     className: "block",
-                                    children: "A new era of personal health"
+                                    children: "We power the best kitchens."
                                 })
                             }), (0, l.jsx)("div", {
                                 className: "flex w-full max-w-[500px] flex-row",
@@ -1183,7 +1183,7 @@
                             className: "mb-12 mt-[65vh] flex flex-col items-center text-center",
                             children: [(0, l.jsx)("h1", {
                                 className: "font-sans-3xl max-w-[13ch]",
-                                children: "A new era of personal health"
+                                children: "We power the best kitchens."
                             }), (0, l.jsx)("div", {
                                 className: "my-12 max-w-[28ch] text-center",
                                 children: (0, l.jsx)("p", {
