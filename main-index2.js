@@ -1,0 +1,1 @@
+import{B as r}from"./main-Base.js";import"./main.js";import"./main-InsertVideo.js";import"./main-ImgParallax.js";import"https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js";class m extends r{constructor(){super()}}export{m as default};
