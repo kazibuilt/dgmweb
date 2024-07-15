@@ -1,0 +1,1 @@
+import{S as a,g as r}from"./main.js";r.registerPlugin(a);class i{constructor(){let o=$("[batch]").not("footer .footer__list [batch]");a.batch(o,{start:"top 85%",interval:.2,onEnter:t=>{r.to(t,{opacity:1,stagger:.1,duration:.6,ease:"power1","--x":"0%",onStart:()=>$(t).addClass("animating")})}})}}export{i as default};

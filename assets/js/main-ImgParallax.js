@@ -1,0 +1,1 @@
+import{g as t,S as o}from"./main.js";t.registerPlugin(o);class m{constructor(){$("[img-parallax]").each((i,l)=>{let e=$(l);t.set(e,{scale:1.2}),t.set(e.parent(),{overflow:"clip"});let r=8;t.timeline({scrollTrigger:{trigger:e,start:"top bottom",end:"bottom top",scrub:1}}).fromTo(e,{yPercent:r},{yPercent:r*-1,ease:"none"},0)})}}export{m as I};
