@@ -2094,17 +2094,17 @@ textarea.w-input, textarea.w-select {
 }
 
 :root {
-  --black: #000;
+  --black: #191919;
   --purple: #704b98;
   --dark-grey: #2b2c33;
   --light-purple: #e9bbff;
-  --white: white;
+  --white: #e6e6e6;
   --yellow: #f5f19c;
   --light-blue: #aedee0;
   --salmon: #ef9d71;
   --blue: #2544ee;
   --black-2: black;
-  --orange: #ff6014;
+  --orange: #ff6b00;
   --brown: #443835;
   --tan: #e9e0cc;
   --light-pink: #f8e9fe;
