@@ -3087,3 +3087,8 @@ body[theme=footer-cta] .nav {
     color: var(--black) !important;
     --this-bg: var(--yellow)
 }
+
+.loader {
+    display: none !important;
+    opacity: 0 !important;
+    }
