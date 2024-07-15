@@ -9,7 +9,7 @@ var Jt = (te, ee, re) => (dr(te, typeof ee != "symbol" ? ee + "" : ee, re), re);
 var style = "";
 const scriptRel = "modulepreload",
     assetsURL = function (te) {
-        return "https://significo-edits.vercel.app/" + te
+        return "https://www.d-g-m.com/" + te
     },
     seen = {},
     __vitePreload = function (ee, re, ie) {
