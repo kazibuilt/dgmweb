@@ -12,7 +12,7 @@ import {
 import {
     I as Se
 } from "./main-ImgParallax.js";
-import "https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js";
+import "/assets/js/jquery.validate.min.js";
 
 function R() {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
