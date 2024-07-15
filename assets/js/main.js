@@ -9,7 +9,7 @@ var Jt = (te, ee, re) => (dr(te, typeof ee != "symbol" ? ee + "" : ee, re), re);
 var style = "";
 const scriptRel = "modulepreload",
     assetsURL = function (te) {
-        return "https://significo-edits.vercel.app/" + te
+        return "https://www.d-g-m.com/" + te
     },
     seen = {},
     __vitePreload = function (ee, re, ie) {
@@ -14165,7 +14165,7 @@ var lottieExports = lottie$1.exports,
     lottie = getDefaultExportFromCjs(lottieExports);
 class LoaderLottie {
     constructor() {
-        let ee = "https://uploads-ssl.webflow.com/653a7da37f4d157ace610df8/65777a2f32ae49f10c7c9562_loader.json",
+        let ee = "/assets/json/65777a2f32ae49f10c7c9562_loader.json",
             re = $(".loader__logo"),
             ie = {
                 frame: 0

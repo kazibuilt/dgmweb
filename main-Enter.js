@@ -1,0 +1,1 @@
+import{g as e,S as r}from"./main.js";e.registerPlugin(r);class n{constructor(s,a,l){$("img").removeAttr("srcset"),$("body").attr("theme","clear");let t=$(".loader"),o=e.timeline({defaults:{duration:1.2,ease:"power4"},onComplete:()=>r.refresh()});e.set(t,{clipPath:"circle(140% at 50% 50%)"}),o.to(t,{clipPath:"circle(0% at 50% 50%)",onStart:()=>a(l)},.2)}}export{n as default};
