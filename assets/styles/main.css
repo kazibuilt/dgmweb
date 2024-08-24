@@ -24,7 +24,7 @@
     --color-primary-light: #f3a654;
     --color-primary-mid: #fd992d;
     --color-primary-dark: #ff7300;
-    --color-lightest: #e6e6e6;;
+    --color-lightest: #e6e6e6;
     --color-lightest-20: rgba(230, 230, 230, 0.2);
     --color-lighter: #FAFAFA;
     --color-light: #EFEEEB;
@@ -577,22 +577,26 @@ a {
 
 [data-theme=light] {
     --theme-color-text: var(--color-darkest);
-    --theme-color-bg: var(--color-lighter)
+    --theme-color-bg: var(--color-gray);
+    --theme-color-bg-alpha: #d1d1d153;
 }
 
 [data-theme=dark] {
     --theme-color-text: var(--color-lightest);
-    --theme-color-bg: var(--color-darkest)
+    --theme-color-bg: var(--color-darkest);
+    --theme-color-bg-alpha: #1919194e;
 }
 
 [data-theme=primary] {
     --theme-color-text: var(--color-lightest);
-    --theme-color-bg: var(--color-primary)
+    --theme-color-bg: var(--color-primary);
+    --theme-color-bg-alpha:#ff840066;
 }
 
 [data-theme=primary2] {
     --theme-color-text: var(--color-darkest);
-    --theme-color-bg: var(--color-primary)
+    --theme-color-bg: var(--color-primary);
+    --theme-color-bg-alpha:#ff840066;
 }
 
 .lenis.lenis-smooth [data-lenis-prevent] {
@@ -4169,8 +4173,7 @@ html[data-theme=primary] .c-button.-header {
     width: 100%;
     height: var(--header-height);
     color: var(--theme-color-text);
-    /* background-color: var(--theme-color-bg); */
-    background-color: #ffffff26;
+   background-color: var(--theme-color-bg-alpha);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border-color, currentColor)
 }
@@ -23668,7 +23671,7 @@ html.is-ready .c-skip-link {
 }
 
 .homeherobg {
-    background: url(/assets/images/home-hero_desktop.png);
+    background: url(/assets/images/home-hero_desktop.webp);
     background-position: bottom center;
     background-size: 60vw auto;
     background-repeat: no-repeat;
