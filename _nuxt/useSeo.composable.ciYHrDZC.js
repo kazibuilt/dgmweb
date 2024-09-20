@@ -254,7 +254,7 @@ function Pe(e) {
         i.width === t && e.splice(o, 1), t = i.width
     }
 }
-const Ne = "https://a.storyblok.com",
+const Ne = "https://www.d-g-m.com",
     Oe = (e, {
         modifiers: t = {},
         baseURL: o = Ne
@@ -270,12 +270,12 @@ const Ne = "https://a.storyblok.com",
         } = t, m = e.endsWith(".svg"), v = !m && (a !== "0" || s !== "0");
         m || (c && (r.format = c + ""), d && (r.quality = d + ""));
         const y = Object.entries(r || {}).map(k => `${k[0]}(${k[1]})`).join(":"),
-            $ = E(i ? `fit-${i}` : "", v ? `${a}x${s}` : "", n ? "smart" : "", y ? "filters:" + y : ""),
+            $ = E(i),
             {
                 pathname: S
             } = X(e);
         return {
-            url: de(E(S, $ ? "/m/" : "", $), o)
+            url: de(E(S,), o)
         }
     },
     qe = Object.freeze(Object.defineProperty({
@@ -328,7 +328,7 @@ ne.providers = {
     storyblok: {
         provider: qe,
         defaults: {
-            baseURL: "https://a.storyblok.com"
+            baseURL: "https://www.d-g-m.com"
         }
     },
     vercel: {
@@ -918,7 +918,7 @@ const se = () => {
                 }] : [], ...i ? n : [], ...a ? s : []],
                 link: [{
                     rel: "canonical",
-                    href: `https://wrk-timepieces.com${o.path}`
+                    href: `https://www-d-g-m.com${o.path}`
                 }]
             };
         r && (d.title = r), ee(d)
