@@ -1,0 +1,22 @@
+User-agent: *
+
+Allow: /login$
+Allow: /library/
+Allow: /.well-known/
+Allow: /academy/achievements/
+
+Allow: /public-pricing
+Allow: /developer-docs-app-*
+Disallow: /developer-docs-app-en-us/search
+Disallow: /developer-docs-app-ja-jp/search
+Disallow: /developer-docs-app-de-de/search
+Disallow: /developer-docs-app-pt-br/search
+Disallow: /developer-docs-app-es-es/search
+Disallow: /developer-docs-app-fr-fr/search
+Allow: /api-passthrough/self-service
+Allow: /api-passthrough/eligibility-engine/
+
+
+
+
+Disallow: /

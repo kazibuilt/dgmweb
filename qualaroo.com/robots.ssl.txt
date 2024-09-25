@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /blog1/*
+Disallow: /blog/?p=
+
+Sitemap: https://qualaroo.com/sitemap.xml
+Sitemap: https://qualaroo.com/blog/blog_sitemap.xml
