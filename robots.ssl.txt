@@ -1,2 +1,16 @@
+# *
 User-agent: *
 Allow: /
+
+# *
+User-agent: *
+Disallow: /404
+Disallow: /500
+Disallow: /api/*
+Disallow: /legal*
+
+# Host
+Host: https://www.planeterthos.com
+
+# Sitemaps
+Sitemap: https://www.planeterthos.com/sitemap.xml

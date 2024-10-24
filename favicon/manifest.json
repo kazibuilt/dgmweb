@@ -1,0 +1,13 @@
+{
+"name": "DGM®",
+"short_name": "DGM®",
+"description": "DGM® powers the kitchens of our favourite restaurants.",
+"dir": "auto",
+"lang": "en-US",
+"display": "standalone",
+"orientation": "any",
+"scope": "/",
+"start_url": "/?homescreen=1",
+"background_color": "#c496ff",
+"theme_color": "#fff"
+}
