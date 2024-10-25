@@ -1,0 +1,725 @@
+<!DOCTYPE html><html lang="en"><head><script>
+    window.kcContext=  
+(()=>{
+
+    const out = {
+    "execution": "2bec16c1-e4af-4c77-abf2-83ea3173e639",
+    "social": {
+        "displayInfo": true,
+    },
+    "auth": {
+        "showResetCredentials": false,
+        "authenticationSelections": [
+            {
+                "helpText": "auth-username-password-form-help-text",
+                "displayName": "auth-username-password-form-display-name",
+                "iconCssClass": "kcAuthenticatorDefaultClass",
+                "authExecId": "2bec16c1-e4af-4c77-abf2-83ea3173e639",
+                "authenticationExecution": {
+                    "authenticatorFlow": false,
+                    "conditional": false,
+                    "required": true,
+                    "enabled": true,
+                    "disabled": false,
+                    "id": "2bec16c1-e4af-4c77-abf2-83ea3173e639",
+                    "parentFlow": "9d91789a-2fa3-446b-9392-bc23c349d6f5",
+                    "authenticator": "auth-username-password-form",
+                    "alternative": false,
+                    "requirement": {
+                        "stableIndex": "0",
+                    },
+                    "priority": "0",
+                },
+            },
+        ],
+        "showUsername": false,
+        "showTryAnotherWayLink": false,
+        /*If you need 'attemptedUsername' on login.ftl, please submit an issue to the Keycloakify repo*/
+    },
+    "login": {
+        /*If you need 'login.password' on login.ftl, please submit an issue to the Keycloakify repo*/
+    },
+    "url": {
+        "oauthAction": "\/realms/humane/login-actions/authenticate",
+        "resourcesPath": "\/resources/5dm8l/login/humane-keycloak-theme",
+        "loginAction": "https://auth.humane.center/realms/humane/login-actions/authenticate?session_code=6Tq2YV59xWwhdsEb7CHy2wp2ZvH7vV4mg6xfRpiC7uE&execution=2bec16c1-e4af-4c77-abf2-83ea3173e639&client_id=center&tab_id=OOlJ236fI5s",
+        "loginUrl": "\/realms/humane/login-actions/authenticate?client_id=center&tab_id=OOlJ236fI5s",
+        "resourcesCommonPath": "\/resources/5dm8l/common/keycloak",
+        "firstBrokerLoginUrl": "\/realms/humane/login-actions/first-broker-login?client_id=center&tab_id=OOlJ236fI5s",
+        "registrationUrl": "\/realms/humane/login-actions/registration?client_id=center&tab_id=OOlJ236fI5s",
+        "logoutConfirmAction": "\/realms/humane/protocol/openid-connect/logout/logout-confirm?client_id=center&tab_id=OOlJ236fI5s",
+        /*If you need 'url.loginUpdateProfileUrl' on login.ftl, please submit an issue to the Keycloakify repo*/
+        "registrationAction": "https://auth.humane.center/realms/humane/login-actions/authenticate?session_code=6Tq2YV59xWwhdsEb7CHy2wp2ZvH7vV4mg6xfRpiC7uE&execution=2bec16c1-e4af-4c77-abf2-83ea3173e639&client_id=center&tab_id=OOlJ236fI5s",
+        "loginResetCredentialsUrl": "\/realms/humane/login-actions/reset-credentials?client_id=center&tab_id=OOlJ236fI5s",
+        "ssoLoginInOtherTabsUrl": "\/realms/humane/login-actions/restart?client_id=center&tab_id=OOlJ236fI5s&skip_logout=true",
+        /*If you need 'url.loginUsernameReminderUrl' on login.ftl, please submit an issue to the Keycloakify repo*/
+        "resourcesUrl": "\/resources/5dm8l?client_id=center&tab_id=OOlJ236fI5s/login/humane-keycloak-theme",
+        "loginRestartFlowUrl": "\/realms/humane/login-actions/restart?client_id=center&tab_id=OOlJ236fI5s&skip_logout=false",
+        "oauth2DeviceVerificationAction": "\/realms/humane/login-actions/authenticate",
+    },
+    "authenticationSession": {
+        "tabId": "OOlJ236fI5s",
+        "authSessionId": "76a0a9c1-1c2e-487d-8597-eadf5ddc2288",
+    },
+    "messagesPerField": {
+    },
+    "client": {
+        "clientId": "center",
+        "description": "Humane Center",
+        "baseUrl": "https://humane.center/",
+        "name": "Center",
+        "attributes": {
+            "oidc.ciba.grant.enabled": "false",
+            "client.secret.creation.time": "1678393848",
+            "backchannel.logout.session.required": "true",
+            "client_credentials.use_refresh_token": "false",
+            "post.logout.redirect.uris": "+",
+            "display.on.consent.screen": "false",
+            "oauth2.device.authorization.grant.enabled": "false",
+            "backchannel.logout.revoke.offline.tokens": "false",
+            "use.refresh.tokens": "true",
+            "exclude.session.state.from.auth.response": "false",
+        },
+    },
+    "realm": {
+        "displayName": "Humane",
+        "registrationAllowed": true,
+        "displayNameHtml": "Humane",
+        "resetPasswordAllowed": true,
+        "resetCredentialsActionTokenLifespanMinutes": "10",
+        "password": true,
+        "actionTokenGeneratedByUserLifespanMinutes": "10",
+        "internationalizationEnabled": false,
+        "idpVerifyAccountLinkActionTokenLifespanMinutes": "10",
+        "verifyEmailActionTokenLifespanMinutes": "10",
+        "loginWithEmailAllowed": true,
+        "duplicateEmailsAllowed": false,
+        "editUsernameAllowed": true,
+        "name": "humane",
+        "rememberMe": true,
+        "registrationEmailAsUsername": true,
+        "identityFederationEnabled": false,
+    },
+    "scripts": [
+    ],
+    "properties": {
+        "kcLogoIdP-facebook": "fa fa-facebook",
+        "parent": "keycloak",
+        "kcAuthenticatorOTPClass": "fa fa-mobile list-view-pf-icon-lg",
+        "kcLogoIdP-bitbucket": "fa fa-bitbucket",
+        "kcAuthenticatorWebAuthnClass": "fa fa-key list-view-pf-icon-lg",
+        "kcWebAuthnDefaultIcon": "pficon pficon-key",
+        "kcLogoIdP-stackoverflow": "fa fa-stack-overflow",
+        "kcSelectAuthListItemClass": "pf-l-stack__item select-auth-box-parent pf-l-split",
+        "kcLogoIdP-microsoft": "fa fa-windows",
+        "kcLoginOTPListItemHeaderClass": "pf-c-tile__header",
+        "kcLocaleItemClass": "pf-c-dropdown__menu-item",
+        "kcLoginOTPListItemIconBodyClass": "pf-c-tile__icon",
+        "kcInputHelperTextAfterClass": "pf-c-form__helper-text pf-c-form__helper-text-after",
+        "kcFormClass": "form-horizontal",
+        "kcSelectAuthListClass": "pf-l-stack select-auth-container",
+        "kcInputClassRadioCheckboxLabelDisabled": "pf-m-disabled",
+        "kcSelectAuthListItemIconClass": "pf-l-split__item select-auth-box-icon",
+        "kcRecoveryCodesWarning": "kc-recovery-codes-warning",
+        "kcFormSettingClass": "login-pf-settings",
+        "kcWebAuthnBLE": "fa fa-bluetooth-b",
+        "kcInputWrapperClass": "col-xs-12 col-sm-12 col-md-12 col-lg-12",
+        "kcSelectAuthListItemArrowIconClass": "fa fa-angle-right fa-lg",
+        "meta": "viewport==width=device-width,initial-scale=1",
+        "styles": "css/login.css",
+        "kcFeedbackAreaClass": "col-md-12",
+        "kcFormPasswordVisibilityButtonClass": "pf-c-button pf-m-control",
+        "kcLogoIdP-google": "fa fa-google",
+        "kcCheckLabelClass": "pf-c-check__label",
+        "kcSelectAuthListItemFillClass": "pf-l-split__item pf-m-fill",
+        "kcAuthenticatorDefaultClass": "fa fa-list list-view-pf-icon-lg",
+        "kcLogoIdP-gitlab": "fa fa-gitlab",
+        "kcFormAreaClass": "col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2",
+        "kcFormButtonsClass": "col-xs-12 col-sm-12 col-md-12 col-lg-12",
+        "kcInputClassRadioLabel": "pf-c-radio__label",
+        "kcAuthenticatorWebAuthnPasswordlessClass": "fa fa-key list-view-pf-icon-lg",
+        "kcSelectAuthListItemHeadingClass": "pf-l-stack__item select-auth-box-headline pf-c-title",
+        "kcInfoAreaClass": "col-xs-12 col-sm-4 col-md-4 col-lg-5 details",
+        "kcLogoLink": "http://www.keycloak.org",
+        "kcContainerClass": "container-fluid",
+        "kcSelectAuthListItemTitle": "select-auth-box-paragraph",
+        "kcHtmlClass": "login-pf",
+        "kcLoginOTPListItemTitleClass": "pf-c-tile__title",
+        "locales": "ar,ca,cs,da,de,el,en,es,fa,fr,fi,hu,it,ja,lt,nl,no,pl,pt-BR,ru,sk,sv,th,tr,zh-CN",
+        "kcLogoIdP-openshift-v4": "pf-icon pf-icon-openshift",
+        "kcWebAuthnUnknownIcon": "pficon pficon-key unknown-transport-class",
+        "kcFormSocialAccountNameClass": "kc-social-provider-name",
+        "kcLogoIdP-openshift-v3": "pf-icon pf-icon-openshift",
+        "kcLoginOTPListInputClass": "pf-c-tile__input",
+        "kcWebAuthnUSB": "fa fa-usb",
+        "kcInputClassRadio": "pf-c-radio",
+        "kcWebAuthnKeyIcon": "pficon pficon-key",
+        "kcFeedbackInfoIcon": "fa fa-fw fa-info-circle",
+        "kcCommonLogoIdP": "kc-social-provider-logo kc-social-gray",
+        "stylesCommon": "node_modules/@patternfly/patternfly/patternfly.min.css node_modules/patternfly/dist/css/patternfly.min.css node_modules/patternfly/dist/css/patternfly-additions.min.css lib/pficon/pficon.css",
+        "kcRecoveryCodesActions": "kc-recovery-codes-actions",
+        "kcFormGroupHeader": "pf-c-form__group",
+        "kcFormSocialAccountSectionClass": "kc-social-section kc-social-gray",
+        "kcLogoIdP-instagram": "fa fa-instagram",
+        "kcAlertClass": "pf-c-alert pf-m-inline",
+        "kcHeaderClass": "login-pf-page-header",
+        "kcLabelWrapperClass": "col-xs-12 col-sm-12 col-md-12 col-lg-12",
+        "kcFormPasswordVisibilityIconShow": "fa fa-eye",
+        "kcFormSocialAccountLinkClass": "pf-c-login__main-footer-links-item-link",
+        "kcLocaleMainClass": "pf-c-dropdown",
+        "kcInputGroup": "pf-c-input-group",
+        "kcTextareaClass": "form-control",
+        "kcButtonBlockClass": "pf-m-block",
+        "kcButtonClass": "pf-c-button",
+        "kcWebAuthnNFC": "fa fa-wifi",
+        "kcLocaleClass": "col-xs-12 col-sm-1",
+        "kcInputClassCheckboxInput": "pf-c-check__input",
+        "kcFeedbackErrorIcon": "fa fa-fw fa-exclamation-circle",
+        "kcInputLargeClass": "input-lg",
+        "kcInputErrorMessageClass": "pf-c-form__helper-text pf-m-error required kc-feedback-text",
+        "kcRecoveryCodesList": "kc-recovery-codes-list",
+        "kcFormSocialAccountListClass": "pf-c-login__main-footer-links kc-social-links",
+        "kcAlertTitleClass": "pf-c-alert__title kc-feedback-text",
+        "kcAuthenticatorPasswordClass": "fa fa-unlock list-view-pf-icon-lg",
+        "kcCheckInputClass": "pf-c-check__input",
+        "kcLogoIdP-linkedin": "fa fa-linkedin",
+        "kcLogoIdP-twitter": "fa fa-twitter",
+        "kcFeedbackWarningIcon": "fa fa-fw fa-exclamation-triangle",
+        "kcResetFlowIcon": "pficon pficon-arrow fa",
+        "kcSelectAuthListItemIconPropertyClass": "fa-2x select-auth-box-icon-properties",
+        "kcFeedbackSuccessIcon": "fa fa-fw fa-check-circle",
+        "kcLoginOTPListClass": "pf-c-tile",
+        "kcSrOnlyClass": "sr-only",
+        "kcFormSocialAccountListGridClass": "pf-l-grid kc-social-grid",
+        "kcButtonDefaultClass": "btn-default",
+        "kcFormGroupErrorClass": "has-error",
+        "kcSelectAuthListItemDescriptionClass": "pf-l-stack__item select-auth-box-desc",
+        "kcSelectAuthListItemBodyClass": "pf-l-split__item pf-l-stack",
+        "import": "common/keycloak",
+        "kcWebAuthnInternal": "pficon pficon-key",
+        "kcSelectAuthListItemArrowClass": "pf-l-split__item select-auth-box-arrow",
+        "kcCheckClass": "pf-c-check",
+        "kcContentClass": "col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3",
+        "kcLogoClass": "login-pf-brand",
+        "kcLoginOTPListItemIconClass": "fa fa-mobile",
+        "kcLoginClass": "login-pf-page",
+        "kcSignUpClass": "login-pf-signup",
+        "kcButtonLargeClass": "btn-lg",
+        "kcFormCardClass": "card-pf",
+        "kcLocaleListClass": "pf-c-dropdown__menu pf-m-align-right",
+        "kcInputClass": "pf-c-form-control",
+        "kcFormGroupClass": "form-group",
+        "kcLogoIdP-paypal": "fa fa-paypal",
+        "kcInputClassCheckbox": "pf-c-check",
+        "kcRecoveryCodesConfirmation": "kc-recovery-codes-confirmation",
+        "kcFormPasswordVisibilityIconHide": "fa fa-eye-slash",
+        "kcInputClassRadioInput": "pf-c-radio__input",
+        "kcFormSocialAccountListButtonClass": "pf-c-button pf-m-control pf-m-block kc-social-item kc-social-gray",
+        "kcInputClassCheckboxLabel": "pf-c-check__label",
+        "kcFormOptionsClass": "col-xs-12 col-sm-12 col-md-12 col-lg-12",
+        "kcFormHeaderClass": "login-pf-header",
+        "kcFormSocialAccountGridItem": "pf-l-grid__item",
+        "kcButtonPrimaryClass": "pf-m-primary",
+        "kcInputHelperTextBeforeClass": "pf-c-form__helper-text pf-c-form__helper-text-before",
+        "kcLogoIdP-github": "fa fa-github",
+        "kcLabelClass": "pf-c-form__label pf-c-form__label-text",
+    },
+};
+
+    out["msg"]= function(){ throw new Error("use import { useKcMessage } from 'keycloakify'"); };
+    out["advancedMsg"]= function(){ throw new Error("use import { useKcMessage } from 'keycloakify'"); };
+
+    out["messagesPerField"]= {
+    
+    
+        "printIfExists": function (fieldName, text) {
+
+                    if(fieldName === "totp" ){
+
+
+
+
+
+                                return undefined;
+
+
+
+                    }
+                    if(fieldName === "userLabel" ){
+
+
+
+
+
+                                return undefined;
+
+
+
+                    }
+                    if(fieldName === "password" ){
+
+
+
+
+
+
+
+
+                                    return undefined;
+
+
+
+
+                    }
+                    if(fieldName === "password-confirm" ){
+
+
+
+
+
+                                return undefined;
+
+
+
+                    }
+                    if(fieldName === "username" ){
+
+
+
+
+
+
+
+
+                                    return undefined;
+
+
+
+
+                    }
+                    if(fieldName === "email" ){
+
+
+
+
+
+                                return undefined;
+
+
+
+                    }
+                    if(fieldName === "firstName" ){
+
+
+
+
+
+                                return undefined;
+
+
+
+                    }
+                    if(fieldName === "lastName" ){
+
+
+
+
+
+                                return undefined;
+
+
+
+                    }
+                    if(fieldName === "global" ){
+
+
+
+
+
+                                return undefined;
+
+
+
+                    }
+                    if(fieldName === "code" ){
+
+
+
+
+
+                                return undefined;
+
+
+
+                    }
+
+                throw new Error(fieldName + "is probably runtime generated, see: https://docs.keycloakify.dev/limitations#field-names-cant-be-runtime-generated");
+
+        },
+        "existsError": function (fieldName) {
+
+                    if(fieldName === "totp" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "userLabel" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "password" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "password-confirm" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "username" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "email" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "firstName" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "lastName" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "global" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "code" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+
+                throw new Error(fieldName + "is probably runtime generated, see: https://docs.keycloakify.dev/limitations#field-names-cant-be-runtime-generated");
+
+
+        },
+        "get": function (fieldName) {
+
+
+                    if(fieldName === "totp" ){
+
+
+
+                                    return "";
+
+
+
+                    }
+                    if(fieldName === "userLabel" ){
+
+
+
+                                    return "";
+
+
+
+                    }
+                    if(fieldName === "password" ){
+
+
+
+
+
+
+                                        return "";
+
+
+
+
+                    }
+                    if(fieldName === "password-confirm" ){
+
+
+
+                                    return "";
+
+
+
+                    }
+                    if(fieldName === "username" ){
+
+
+
+
+
+
+                                        return "";
+
+
+
+
+                    }
+                    if(fieldName === "email" ){
+
+
+
+                                    return "";
+
+
+
+                    }
+                    if(fieldName === "firstName" ){
+
+
+
+                                    return "";
+
+
+
+                    }
+                    if(fieldName === "lastName" ){
+
+
+
+                                    return "";
+
+
+
+                    }
+                    if(fieldName === "global" ){
+
+
+
+                                    return "";
+
+
+
+                    }
+                    if(fieldName === "code" ){
+
+
+
+                                    return "";
+
+
+
+                    }
+
+                throw new Error(fieldName + "is probably runtime generated, see: https://docs.keycloakify.dev/limitations#field-names-cant-be-runtime-generated");
+
+
+        },
+        "exists": function (fieldName) {
+
+                    if(fieldName === "totp" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "userLabel" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "password" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "password-confirm" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "username" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "email" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "firstName" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "lastName" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "global" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+                    if(fieldName === "code" ){
+
+
+
+
+
+                                return false;
+
+
+
+                    }
+
+                throw new Error(fieldName + "is probably runtime generated, see: https://docs.keycloakify.dev/limitations#field-names-cant-be-runtime-generated");
+
+        }
+    };
+
+
+    out["keycloakifyVersion"] = "9.7.2";
+    out["themeVersion"] = "ae2562d73";
+    out["themeType"] = "login";
+    out["themeName"] = "humane-keycloak-theme";
+    out["pageId"] = "login.ftl";
+
+    try {
+
+        out["url"]["resourcesCommonPath"] = out["url"]["resourcesPath"] + "/" + "resources-common";
+
+    } catch(error) {
+
+    }
+
+    return out;
+
+})()
+;
+</script>
+
+<style>:root {
+    --urlcfb808fdc1da114: url(https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/static/media/background.7cd80027de24cbc2280b.svg);
+}
+</style>
+<meta charset="utf-8"><link rel="icon" href="https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/favicon.ico"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="white"><meta name="description" content="Humane"><link rel="apple-touch-icon" href="https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/logo.png"><title>Humane</title><link rel="preload" href="https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/fonts/humaneweb-vf.woff2" as="font" crossorigin="anonymous"><style>@supports not (font-variation-settings:normal){@font-face{font-family:Humane;src:url(https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/fonts/humaneweb-thin.woff2);font-weight:100}@font-face{font-family:Humane;src:url(https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/fonts/humaneweb-extralight.woff2);font-weight:200}@font-face{font-family:Humane;src:url(https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/fonts/humaneweb-light.woff2);font-weight:300}@font-face{font-family:Humane;src:url(https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/fonts/humaneweb-regular.woff2);font-weight:400}@font-face{font-family:Humane;src:url(https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/fonts/humaneweb-medium.woff2);font-weight:500}@font-face{font-family:Humane;src:url(https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/fonts/humaneweb-bold.woff2);font-weight:700}@font-face{font-family:Humane;src:url(https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/fonts/humaneweb-black.woff2);font-weight:900}}@supports (font-variation-settings:normal){@font-face{font-display:fallback;font-family:Humane;font-style:normal;src:url(https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/fonts/humaneweb-vf.woff2) format('woff2 supports variations'),url(https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/fonts/humaneweb-vf.woff2) format('woff2-variations');font-weight:100 900}}:root{--humane-font-family:Humane,system-ui,sans-serif}</style><script defer="defer" src="https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/static/js/main.cf25dae5.js"></script><link href="https://auth.humane.center/resources/5dm8l/login/humane-keycloak-theme/build/static/css/main.93a4706b.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>

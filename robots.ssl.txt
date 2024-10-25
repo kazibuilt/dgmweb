@@ -1,16 +1,11 @@
 # *
 User-agent: *
 Allow: /
-
-# *
-User-agent: *
-Disallow: /404
-Disallow: /500
-Disallow: /api/*
-Disallow: /legal*
+Disallow: /slice-simulator.html
+Disallow: /test
 
 # Host
-Host: https://www.planeterthos.com
+Host: https://humane.com
 
 # Sitemaps
-Sitemap: https://www.planeterthos.com/sitemap.xml
+Sitemap: https://humane.com/sitemap.xml
