@@ -1,4 +1,0 @@
-User-Agent: *
-Disallow: /404page.html
-Disallow: /dre-api/api/dre-api.wsdl
-Disallow: /thank-you.html
